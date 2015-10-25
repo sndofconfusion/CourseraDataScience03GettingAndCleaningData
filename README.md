@@ -16,7 +16,7 @@ The data has been extracted to the same folder as the script "run_analysis.R", i
 	./UCI HAR Dataset/train/y_train.txt
 
 
-### Script description
+### Description of "run_analysis.R"
 
 The script performs the following actions
 
