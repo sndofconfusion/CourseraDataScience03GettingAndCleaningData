@@ -1,0 +1,8 @@
+"SubjectID" : Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+"Activity" : The activity name.  One of  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING
+
+For other fields, please see "./UCI HAR Dataset/features_info.txt" for a description for how the original data is calculated.
+The columns with the corresponding names in "./Average_measurements.txt" are the mean of the original data, grouped by SubjectID and Activity,
+e.g. tBodyAcc-mean()-X is the mean of tBodyAcc-mean()-X from the original data, grouped by SubjectID and Activity.
+
+"tBodyAcc-mean()-X" : Mean of tBodyAcc-mean()-X grouped by SubjectID and Activity.

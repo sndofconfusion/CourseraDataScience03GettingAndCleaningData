@@ -42,4 +42,5 @@ The script performs the following actions
 
 * Group the data by SubjectID and Activity and calculate the mean average of each column
 * Write the resulting data out to "./Average_measurements.txt"
+	* See "./CodeBook.txt" for an explanation of the fields
 
