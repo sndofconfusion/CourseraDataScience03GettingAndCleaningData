@@ -30,15 +30,15 @@ The script performs the following actions
 	* Binds the activity and subject data to the training data
 
 * Loads the test data from "./UCI HAR Dataset/test/X_test.txt"
-** Applies the column filter
-* Loads the data for which activity each row represents from "./UCI HAR Dataset/test/y_test.txt"
-* Loads the data for which subject each row represents from "./UCI HAR Dataset/test/subject_test.txt"
-* Binds the activity and subject data to the training data
+	* Applies the column filter
+	* Loads the data for which activity each row represents from "./UCI HAR Dataset/test/y_test.txt"
+	* Loads the data for which subject each row represents from "./UCI HAR Dataset/test/subject_test.txt"
+	* Binds the activity and subject data to the training data
 
 * Combine the training and test data into one dataset
-* Read the activity labels from "./UCI HAR Dataset/activity_labels.txt"
-* Join the activity labels onto the dataset
-* Remove the ActivityID column as no longer needed
+	* Read the activity labels from "./UCI HAR Dataset/activity_labels.txt"
+	* Join the activity labels onto the dataset
+	* Remove the ActivityID column as no longer needed
 
 * Group the data by SubjectID and Activity and calculate the mean average of each column
 * Write the resulting data out to "./Average_measurements.txt"
