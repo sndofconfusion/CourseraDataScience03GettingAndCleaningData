@@ -21,13 +21,13 @@ The data has been extracted to the same folder as the script "run_analysis.R", i
 The script performs the following actions
 
 * Loads the list of column names from "./UCI HAR Dataset/features.txt"
-** Create a column filter for those columns which are standard deviation and mean measurements
+	* Create a column filter for those columns which are standard deviation and mean measurements
 
 * Loads the training data from "./UCI HAR Dataset/train/subject_train.txt"
-** Applies the column filter
-** Loads the data for which activity each row represents from "./UCI HAR Dataset/train/y_train.txt"
-** Loads the data for which subject each row represents from "./UCI HAR Dataset/train/subject_train.txt"
-** Binds the activity and subject data to the training data
+	* Applies the column filter
+	* Loads the data for which activity each row represents from "./UCI HAR Dataset/train/y_train.txt"
+	* Loads the data for which subject each row represents from "./UCI HAR Dataset/train/subject_train.txt"
+	* Binds the activity and subject data to the training data
 
 * Loads the test data from "./UCI HAR Dataset/test/X_test.txt"
 ** Applies the column filter
